@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="ExampleOnionLib/ExampleOnionLib.csproj" Id="3329dd1c-d504-431b-8f62-37b97993723f" />
+  <Project Path="MySecondApp/MySecondApp.csproj" Id="53ddca27-5457-4657-af80-688eb9ebe191" />
+</Solution>

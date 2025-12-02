@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "BarcodeDriver": {
+      "commandName": "Project",
+      "commandLineArgs": "COM2 --fake"
+    }
+  }
+}

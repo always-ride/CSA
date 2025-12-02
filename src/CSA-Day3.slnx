@@ -1,0 +1,5 @@
+<Solution>
+  <Project Path="BarcodeConsumer/BarcodeConsumer.csproj" />
+  <Project Path="BarcodeDriver/BarcodeDriver.csproj" Id="633093eb-72d8-48b0-920f-8a98cdb662de" />
+  <Project Path="MyThirdApp/MyThirdApp.csproj" />
+</Solution>

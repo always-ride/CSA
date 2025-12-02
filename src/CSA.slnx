@@ -1,0 +1,11 @@
+<Solution>
+  <Project Path="BarcodeConsumer/BarcodeConsumer.csproj" Id="9e0713e3-7e03-40d9-8bb1-b2366bba5985" />
+  <Project Path="BarcodeDriver/BarcodeDriver.csproj" />
+  <Project Path="ExampleOnionLib/ExampleOnionLib.csproj" Id="3329dd1c-d504-431b-8f62-37b97993723f" />
+  <Project Path="MyFirstApp/MyFirstApp.csproj" Id="7c5b5a79-5528-49ca-b9fb-b611403918f8" />
+  <Project Path="MyLib/MyLib.csproj" Id="aba4e9e5-07b0-48b1-9a38-ec1960c70124" />
+  <Project Path="MyLibTests/MyLibTests.csproj" Id="8f4e0e95-c421-4112-980d-d5dfa1dc81fc" />
+  <Project Path="MySecondApp/MySecondApp.csproj" Id="53ddca27-5457-4657-af80-688eb9ebe191" />
+  <Project Path="MyThirdApp/MyThirdApp.csproj" Id="55afebed-d166-410e-9afe-4814e0dad61d" />
+  <Project Path="UIPathDemo/UIPathDemo.csproj" Id="60c31cb1-cb8e-4c39-8bd4-afc0ddfb2dde" />
+</Solution>
