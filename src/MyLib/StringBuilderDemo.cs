@@ -3,12 +3,15 @@ using System.Text;
 
 namespace MyFirstApp
 {
-    public class StringBuilderDemo
+    public static class StringBuilderDemo
     {
         public static void Execute()
         {
-            PrintToConsole(ExecuteWithStringBuilder());
-            PrintToConsole(ExecuteWithString());
+            ExecuteWithStringBuilder()
+                .PrintToConsole();
+
+            ExecuteWithString()
+                .PrintToConsole();
         }
 
         private static (int Length, int Total, string Content) ExecuteWithStringBuilder()
@@ -33,7 +36,7 @@ namespace MyFirstApp
             return (s.Length, total, s);
         }
 
-        private static void PrintToConsole((int Length, int Total, string Content) dto)
+        private static void PrintToConsole(this (int Length, int Total, string Content) dto)
         {
             Console.WriteLine($"Length of text: {dto.Length}");
             Console.WriteLine($"Allocated characters: {dto.Total}");

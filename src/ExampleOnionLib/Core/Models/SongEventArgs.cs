@@ -1,12 +1,7 @@
 ﻿namespace ExampleOnionLib
 {
-    public class SongEventArgs : EventArgs
+    public class SongEventArgs(string songName) : EventArgs
     {
-        public string SongName { get; }
-
-        public SongEventArgs(string songName)
-        {
-            SongName = songName;
-        }
+        public string SongName { get; } = songName;
     }
 }

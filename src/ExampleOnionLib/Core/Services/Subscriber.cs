@@ -1,13 +1,8 @@
 ﻿namespace ExampleOnionLib
 {
-    public class Subscriber
+    public class Subscriber(string name)
     {
-        private readonly string name;
-
-        public Subscriber(string name)
-        {
-            this.name = name;
-        }
+        private readonly string name = name;
 
         public void OnMessageReceived(string message)
         {

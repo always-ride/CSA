@@ -2,8 +2,8 @@
 {
     public class Producer
     {
-        // Event mit generischem EventHandler<T>
-        public event EventHandler<SongEventArgs> SongBereit;
+        // Event mit generischem EventHandler<T>?
+        public event EventHandler<SongEventArgs>? SongBereit;
 
         public void Compose(string songName)
         {

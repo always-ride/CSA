@@ -4,12 +4,9 @@
 
     public class DelegateDemo
     {
-        static int Add(int x, int y) => x + y;
+        private static readonly MathOperation Add = (x, y) => x + y;
 
-        static int Multiply(int x, int y)
-        {
-            return x * y;
-        }
+        private static readonly MathOperation Multiply = (x, y) => x * y;
 
         public static void Execute()
         {
@@ -22,7 +19,7 @@
             op += Multiply; // Multicast
             foreach (MathOperation del in op.GetInvocationList())
             {
-                Console.WriteLine(del(3, 4)); // 7 und 12
+                Console.WriteLine(del.Invoke(3, 4)); // 7 und 12
             }
         }
     }

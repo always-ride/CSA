@@ -1,4 +1,8 @@
 <Solution>
+  <Project Path="EventTest/EventTest.csproj" Id="c6144fca-5454-4d8e-9c6e-e3d0937806e9" />
   <Project Path="ExampleOnionLib/ExampleOnionLib.csproj" Id="3329dd1c-d504-431b-8f62-37b97993723f" />
+  <Project Path="ExmampleWithEF/ExmampleWithEF.csproj" Id="913c50d6-87ef-40ec-bef5-83d1a85bcd1b" />
+  <Project Path="FinalizerExample/FinalizerExample.csproj" Id="fc9ed004-c1fe-470d-af52-b2bfa2447dbc" />
+  <Project Path="MyAttribute/MyAttribute.csproj" Id="455a9d9e-27eb-49eb-8ad2-166be9e796be" />
   <Project Path="MySecondApp/MySecondApp.csproj" Id="53ddca27-5457-4657-af80-688eb9ebe191" />
 </Solution>

@@ -14,7 +14,7 @@
 
         private void HandleSongBereit(object sender, SongEventArgs e)
         {
-            Console.WriteLine("{0} Song: {1}", consumerName, e.SongName);
+            Console.WriteLine($"{consumerName} Song: {e.SongName}");
         }
     }
 }
