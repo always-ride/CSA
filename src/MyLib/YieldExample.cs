@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 
 namespace MyFirstApp
 {
@@ -15,7 +16,7 @@ namespace MyFirstApp
                 new Country { Name = "Fiktivland", Capital = "Bern" }
             };
 
-            foreach (var country in GetCountriesWithCapitalBern2(countries))
+            foreach (var country in GetCountriesWithCapitalBern3(countries))
             {
                 Console.WriteLine(country.Name);
             }
@@ -46,6 +47,11 @@ namespace MyFirstApp
                 }
             }
             return result;
+        }
+
+        public static IEnumerable<Country> GetCountriesWithCapitalBern3(List<Country> countries)
+        {
+            return countries.Where(c => c.Capital == "Bern");
         }
 
         public class Country

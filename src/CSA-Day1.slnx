@@ -1,4 +1,7 @@
 <Solution>
+  <Project Path="HelloDotNet/HelloDotNet.csproj" Id="742dae6b-2768-4a16-9b9d-3518c09c34ef" />
+  <Project Path="HelloWorld/HelloWorld.csproj" Id="83a89c10-2bc5-492c-8caa-0b3c3ad8eec4" />
+  <Project Path="Kapitel4/Kapitel4.csproj" Id="a0b86e59-e65b-4c00-8a6f-50aac08e4ec0" />
   <Project Path="MyFirstApp/MyFirstApp.csproj" Id="7c5b5a79-5528-49ca-b9fb-b611403918f8" />
   <Project Path="MyLib/MyLib.csproj" Id="aba4e9e5-07b0-48b1-9a38-ec1960c70124" />
   <Project Path="MyLibTests/MyLibTests.csproj" Id="8f4e0e95-c421-4112-980d-d5dfa1dc81fc" />

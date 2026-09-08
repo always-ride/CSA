@@ -16,7 +16,8 @@ namespace MyFirstApp
                 .Where(n => n.Length > 3)
                 .OrderBy(n => n);
             Console.WriteLine("Where & OrderBy:");
-            foreach (var n in longNames) Console.WriteLine(n);
+            foreach (var n in longNames) 
+                Console.WriteLine(n);
 
             // 2. First, Last, ElementAt
             Console.WriteLine("\nFirst: " + numbers.First());
