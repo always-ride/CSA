@@ -1,4 +1,6 @@
-﻿namespace ExampleOnionLib
+﻿using ExampleOnionLib.Core.Services;
+
+namespace ExampleOnionLib.Core.ApplicationServices
 {
     public delegate void MessageHandler(string message);
 

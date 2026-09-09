@@ -1,6 +1,7 @@
-﻿using System.Reflection;
+﻿using ExampleOnionLib.Core.Models;
+using System.Reflection;
 
-namespace ExampleOnionLib
+namespace ExampleOnionLib.Core.ApplicationServices
 {
     public class AttributeDemo
     {

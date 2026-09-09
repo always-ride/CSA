@@ -1,4 +1,4 @@
-﻿namespace ExampleOnionLib
+﻿namespace ExampleOnionLib.Core.Models
 {
     [AttributeUsage(AttributeTargets.Method, AllowMultiple = false)]
     public class ReviewedAttribute : Attribute

@@ -1,4 +1,6 @@
-﻿namespace ExampleOnionLib
+﻿using ExampleOnionLib.Core.Models;
+
+namespace ExampleOnionLib.Core.ApplicationServices
 {
     public class DelegateExample
     {

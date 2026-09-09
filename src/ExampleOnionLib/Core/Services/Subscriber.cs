@@ -1,4 +1,4 @@
-﻿namespace ExampleOnionLib
+﻿namespace ExampleOnionLib.Core.Services
 {
     public class Subscriber(string name)
     {

@@ -1,4 +1,4 @@
-﻿namespace ExampleOnionLib
+﻿namespace ExampleOnionLib.Core.Models
 {
     public class SongEventArgs(string songName) : EventArgs
     {

@@ -1,4 +1,4 @@
-﻿namespace ExampleOnionLib
+﻿namespace ExampleOnionLib.Core.ApplicationServices
 {
     public delegate int MathOperation(int a, int b);
 

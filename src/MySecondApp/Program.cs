@@ -1,5 +1,5 @@
 ﻿using System;
-using ExampleOnionLib;
+using ExampleOnionLib.Core.ApplicationServices;
 
 namespace MySecondApp
 {

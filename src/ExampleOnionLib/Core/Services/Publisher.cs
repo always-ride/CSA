@@ -1,4 +1,6 @@
-﻿namespace ExampleOnionLib
+﻿using ExampleOnionLib.Core.ApplicationServices;
+
+namespace ExampleOnionLib.Core.Services
 {
     public class Publisher
     {
