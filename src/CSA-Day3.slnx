@@ -1,5 +1,8 @@
 <Solution>
   <Project Path="BarcodeConsumer/BarcodeConsumer.csproj" />
   <Project Path="BarcodeDriver/BarcodeDriver.csproj" Id="633093eb-72d8-48b0-920f-8a98cdb662de" />
+  <Project Path="Codewars/Codewars.csproj" Id="eeee37a3-f07e-4cb6-9f8b-94140c1a0162" />
+  <Project Path="CodewarsTest/CodewarsTest.csproj" Id="61dbe803-f78c-47d6-af0c-dc874f920e47" />
   <Project Path="MyThirdApp/MyThirdApp.csproj" />
+  <Project Path="PInvokeExample/PInvokeExample.csproj" Id="275bb400-0072-46d2-85df-76f3a96f22d2" />
 </Solution>

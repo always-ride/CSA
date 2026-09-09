@@ -1,5 +1,4 @@
-﻿using System;
-using System.IO;
+﻿using System.IO;
 using System.Text.Json;
 using System.Text.Json.Serialization;
 using System.Collections.Generic;
@@ -10,11 +9,13 @@ namespace MyThirdApp
     {
         public class Employee
         {
-            public string Name { get; set; }
-            public int Id { get; set; }
+            public string Name { get; init; }
+
+            [JsonInclude]
+            private int Id { get; init; }
 
             [JsonIgnore] // ersetzt [NonSerialized]
-            public int CacheValue { get; set; }
+            public int CacheValue { get; init; }
 
             public Employee(string name, int id)
             {

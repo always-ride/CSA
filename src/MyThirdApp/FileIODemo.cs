@@ -1,20 +1,21 @@
-﻿using System;
-using System.IO;
+﻿using System.IO;
 
 namespace MyThirdApp
 {
     internal class FileIODemo
     {
+        public static int counter = 0;
+
         public static void Execute()
         {
             string rootPath = @"C:\";
-            string outputFile = @"C:\dir_info.txt";
+            string outputFile = "dir_info.txt";
 
             try
             {
-                using (StreamWriter writer = new StreamWriter(outputFile, false)) // false = überschreiben
+                using (StreamWriter writer = new(outputFile, false)) // false = überschreiben
                 {
-                    DirectoryInfo rootDir = new DirectoryInfo(rootPath);
+                    DirectoryInfo rootDir = new(rootPath);
                     ListDirectoryContents(rootDir, writer, "");
                 }
 
@@ -28,6 +29,12 @@ namespace MyThirdApp
 
         static void ListDirectoryContents(DirectoryInfo dir, StreamWriter writer, string indent)
         {
+            if (counter++ >= 20) // Limit auf 20 Aufrufe
+            {
+                writer.WriteLine($"{indent}... (Limit erreicht, weitere Einträge werden nicht angezeigt)");
+                return;
+            }
+
             // Verzeichnisse durchlaufen
             try
             {
