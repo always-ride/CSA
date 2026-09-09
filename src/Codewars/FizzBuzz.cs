@@ -14,12 +14,25 @@
      * Method calling example:
      * 
      * string[] result = FizzBuzz.GetFizzBuzzArray(3); // => [ "1", "2", "Fizz" ]
+     * 
+     * Source: https://www.codewars.com/kata/5300901726d12b80e8000498
      */
     public class FizzBuzz
     {
         public static string[] GetFizzBuzzArray(int n)
         {
-            return new string[n];
+            return Enumerable
+              .Range(1, n)
+              .Select(i => Fizzify(i))
+              .ToArray();
+        }
+
+        public static string Fizzify(int i)
+        {
+            if (i % 15 == 0) return "FizzBuzz";
+            if (i % 5 == 0) return "Buzz";
+            if (i % 3 == 0) return "Fizz";
+            return $"{i}";
         }
     }
 }

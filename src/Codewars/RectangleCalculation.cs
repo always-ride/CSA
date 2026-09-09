@@ -38,12 +38,28 @@
      * Note: expected time complexity: something around O(N²), but with a good 
      * enough constant factor. If you think about using something better, try 
      * this kata instead: Total area covered by more rectangles
+     * 
+     * Source: https://www.codewars.com/kata/55dcdd2c5a73bdddcb000044
      */
     public class RectangleCalculation
     {
         public static int Calculate(IEnumerable<int[]> rectangles)
         {
-            return -1;
+
+            var area = 0;
+
+            /* 
+             * unit tests pass with all three implementations
+             * - UseIntuitiveApproach is technically incorrect
+             * - UsePixels is technically correct, but not fast enough
+             * - UseOctTreeNode is the only one that fulfills the kata 
+             */
+
+            //area = RectangleHelpers1.UseIntuitiveApproach(rectangles);
+            //area = RectangleHelpers2.UsePixels(rectangles);
+            area = RectangleHelpers3.UseOctTreeNode(rectangles);
+
+            return area;
         }
     }
 }
